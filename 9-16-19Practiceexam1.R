@@ -53,7 +53,7 @@ Inf/INf
 Inf/Inf
 
 a<-2
-2<-NULL
+a<-NULL
 
 Q<-c(1,2,3,4,5)
 length(Q)
@@ -131,4 +131,7 @@ m
 is.na(m)
 
 load(file="test1_data.Rdata")
+str(d)
+
+d$dateTime<-NULL
 str(d)
