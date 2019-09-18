@@ -113,4 +113,22 @@ a<-array(c(1:24),dim=c(3,4,2))
 a
 l <- list(a=1,b=2,c=3,d=4,e=5)
 l
-f<-data
+m<-matrix(11:20, nrow=2, ncol=5)
+m
+m[2,4]
+m[2,4]<-8
+m
+c(51,1:50)
+c(NA,1:5)
+mean
+mean(c(NA,1:5))
+mean(c(NA,1:5),na.rm=TRUE)
+
+c(1,2,3,NA)
+is.na(NA)
+m<-c(1,2,3,NA)
+m
+is.na(m)
+
+load(file="test1_data.Rdata")
+str(d)
